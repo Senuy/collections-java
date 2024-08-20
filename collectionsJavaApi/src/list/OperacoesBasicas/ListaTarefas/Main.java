@@ -1,20 +1,20 @@
-package list.OperacoesBasicas;
+package list.OperacoesBasicas.ListaTarefas;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		ListaTarefa listaTarefa = new ListaTarefa();
 		System.out.println("O numero total de elementos é : "+ listaTarefa.obterNumeroTotalTarefas());
 		
 		
-		//listaTarefa.adcionarTarefa("Tarefa 1");
-		//listaTarefa.adcionarTarefa("Tarefa 1");
-		//listaTarefa.adcionarTarefa("Tarefa 2");
+		listaTarefa.adcionarTarefa("Tarefa 1");
+		listaTarefa.adcionarTarefa("Tarefa 1");
+		listaTarefa.adcionarTarefa("Tarefa 2");
 		
 		System.out.println("O numero total de elementos é : "+ listaTarefa.obterNumeroTotalTarefas());
 		
 		
-		//listaTarefa.removerTarefa("Tarefa 1");
+		listaTarefa.removerTarefa("Tarefa 1");
 		
 		System.out.println("O numero total de elementos é : "+ listaTarefa.obterNumeroTotalTarefas());
 		
