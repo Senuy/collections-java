@@ -16,26 +16,26 @@ public class CarrinhoDeCompras {
 	}
 
 	public void removerItem(String nome) {
-		List<Item> itensParaRemover = new ArrayList<Item>();
+		List<Item> itensParaRemover = new ArrayList<>();
 
-		for (Item item : itensParaRemover) {
-			if (item.getNome().equalsIgnoreCase(nome)) {
-				itensParaRemover.add(item);
+		for (Item itens : carrinho) {
+			if (itens.getNome().equalsIgnoreCase(nome)) {
+				itensParaRemover.add(itens);
 			}
-
-			carrinho.removeAll(itensParaRemover);
-
 		}
+		carrinho.removeAll(itensParaRemover);
 	}
 
 	
 	public void calcularValorTotal() {
-		List<Item> totalCarrinho = new ArrayList<Item>();
-		double Valor = 0;
-		for(Item item: totalCarrinho) {
-			Valor +=item.getPreco();
+		//List<Item> totalCarrinho = new ArrayList<Item>();
+		double valor = 0;
+		for(Item itens: carrinho) {
+			for(int i = 1; i<= itens.getQuantidade(); i++ ) {
+				valor +=itens.getPreco();
+			}
 		}
-		System.out.println("O preço total do carrinho é R$"+Valor %.2f);
+		System.out.println("O preço total do carrinho é R$"+valor);
 	}
 	
 	public void exibirItens() {

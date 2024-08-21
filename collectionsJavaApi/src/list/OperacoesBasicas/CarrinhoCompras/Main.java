@@ -11,9 +11,16 @@ public class Main {
 		
 		
 		carrinho.adicionarItem("Coca", 10.50, 3);
+		carrinho.adicionarItem("Sal", 2.00, 1);
+		carrinho.adicionarItem("Carne", 37.00, 3);
+		carrinho.exibirItens();
+		
+		carrinho.calcularValorTotal();
+		
+		carrinho.removerItem("Coca");
 		
 		carrinho.exibirItens();
-		carrinho.calcularValorTotal();
+ 		carrinho.calcularValorTotal();
 
 	}
 
