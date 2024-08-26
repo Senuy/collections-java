@@ -1,12 +1,11 @@
 package list.Ordenacáo.OrdenacaoPessoas;
 
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import list.Ordenacáo.OrdenacaoPessoas.*;
 
-import list.Pesquisa.CatalogoLivros.main;
 
 public class OrdenacaoPessoas {
 
