@@ -1,4 +1,4 @@
-package set.pesquisa;
+package set.pesquisa.agenda;
 
 import java.util.HashSet;
 import java.util.Set;

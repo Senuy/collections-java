@@ -1,4 +1,4 @@
-package set.listaTarefas;
+package set.pesquisa.listaTarefas;
 
 public class Tarefa {
 	public String descricao;

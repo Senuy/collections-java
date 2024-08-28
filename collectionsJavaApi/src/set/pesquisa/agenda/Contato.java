@@ -1,4 +1,4 @@
-package set.pesquisa;
+package set.pesquisa.agenda;
 
 import java.util.Objects;
 
@@ -22,7 +22,7 @@ public class Contato {
 	}
 	@Override
 	public String toString() {
-		return String.format("Contato [nome=%s, telefone=%s]", nome, telefone);
+		return String.format("[nome = %s - telefone = %s]", nome, telefone);
 	}
 	@Override
 	public int hashCode() {
