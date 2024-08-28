@@ -49,6 +49,7 @@ public class GerenciadorAlunos {
 		
 		gerenciaAlunos.exibirAlunos();
 		
+		gerenciaAlunos.adicionarAluno(" Greg" , 123, 5.00);
 		gerenciaAlunos.adicionarAluno(" Antonio" , 4684648, 5.00);
 		gerenciaAlunos.adicionarAluno(" Yunes S" , 4684648, 9.00);
 		gerenciaAlunos.adicionarAluno(" Yunes Santos" , 468454648, 10.00);

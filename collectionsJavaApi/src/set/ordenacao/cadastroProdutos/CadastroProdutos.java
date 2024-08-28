@@ -40,9 +40,9 @@ public class CadastroProdutos {
 		cadastroProdutos.adicionarProduto(6456646, "coca5", 10.50, 6000);
 		
 		
-		//System.out.println(cadastroProdutos.produtoSet);
+		System.out.println(cadastroProdutos.produtoSet);
 		
-		//System.out.println(cadastroProdutos.exibirProdutosPorNome());
+		System.out.println(cadastroProdutos.exibirProdutosPorNome());
 		
 		System.out.println(cadastroProdutos.exibirPorPreco());
 		
